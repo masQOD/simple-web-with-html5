@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Latihan HTML dan CSS</title>
+    <link rel="stylesheet" href="style.css" type="text/css"> <!--Pemanggilan file css yang terpisah-->
+</head>
+<body>
+<!--Pembuatn Rangka/istilahnya kulitnya-->
+<div id="wrapper">
+    <div id="container"> 
+    <!--Pembuatn header-->
+        <header>Movies News</header><!--pengakhiran header-->
+        <!--Pembuatn menu navigasi-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Artikel</a>
+                    <ul class="submenu">
+                        <li><a href="#">Sains</a></li>
+                        <li><a href="#">Bola</a></li>
+                    </ul>
+                </li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+                <li><a href="#">Sitemap</a></li>
+            </ul>
+        </nav> <!--pengakhiran menu navigasi-->
+
+        <!--Pembuatn isi content-->
+        <div id="content">
+            <div id="single"> <!--pembuatan content 1--> 
+                <img src="images/spiderman.jpg" id="featured-image"> 
+                <h2>Spiderman</h2>
+                KOMPAS.com - Dibandingkan letusan Gunung Tambora di Sumbawa (Nusa Tenggara Timur) pada 1815, letusan Gunung Krakatau masih kalah besar, baik kekuatan maupun dampaknya. Berbeda dengan letusan Tambora yang terekam samar dan dampak globalnya baru dideteksi lebih dari 100 tahun kemudian, letusan Krakatau diketahui warga dunia dalam bilangan jam [...]
+                <div id="more"><a href="article-1.html">Baca Selengkapnya</a></div> <!--pembuatan baca selengkapnya--> 
+            </div><!--pengakhiran content 1--> 
+            <div id="single"> <!--pembuatan content 2--> 
+               <img src="images/spiderman.jpg" id="featured-image"> 
+                <h2>Spiderman</h2>
+                KOMPAS.com - Dibandingkan letusan Gunung Tambora di Sumbawa (Nusa Tenggara Timur) pada 1815, letusan Gunung Krakatau masih kalah besar, baik kekuatan maupun dampaknya. Berbeda dengan letusan Tambora yang terekam samar dan dampak globalnya baru dideteksi lebih dari 100 tahun kemudian, letusan Krakatau diketahui warga dunia dalam bilangan jam [...]
+                <div id="more"><a href="article-1.html">Baca Selengkapnya</a></div> <!--pembuatan baca selengkapnya--> 
+            </div><!--pengakhiran content 2--> 
+            <div id="single"><!--pembuatan content 3--> 
+               <img src="images/spiderman.jpg" id="featured-image"> 
+                <h2>Spiderman</h2>
+                KOMPAS.com - Dibandingkan letusan Gunung Tambora di Sumbawa (Nusa Tenggara Timur) pada 1815, letusan Gunung Krakatau masih kalah besar, baik kekuatan maupun dampaknya. Berbeda dengan letusan Tambora yang terekam samar dan dampak globalnya baru dideteksi lebih dari 100 tahun kemudian, letusan Krakatau diketahui warga dunia dalam bilangan jam [...]
+                <div id="more"><a href="article-1.html">Baca Selengkapnya</a></div> <!--pembuatan baca selengkapnya--> 
+            </div><!--pengakhiran content 3--> 
+        </div>
+        <!--Pengakhiran isi content-->
+
+        <!--Pembuatn sidebar-->
+        <div id="sidebar">
+            <li class="widget">
+                <h2>Popular Post</h2>
+                <ul>
+                    <li><a href="#">Spiderman</a></li>
+                    <li><a href="#">Interstellar</a></li>
+                    <li><a href="#">The Dark Knight</a></li>
+                </ul>
+            </li>
+            <!--Pembuatan sounds mp3-->
+            <li class="widget">
+                <h2>Audio Streeming</h2>
+                <audio id="audio" src="sounds/child.mp3" controls></audio>
+            </li>
+            <!--Pembuatan video-->
+            <li class="widget">
+                <h2>Video Streeming</h2>
+                <video controls="controls" width="300" height="150">
+                <source src="videos/Child of Light.mp4"/>
+                Your Browser doesn not support the video
+                </video>
+            </li>
+        </div>
+
+        <!--Pembuatan Footer-->
+        <footer>
+            <div id="column">
+                <h2>Dapatkan Bantuan & Dukungan</h2>
+                Untuk mendapatkan petunjuk atau dukungan dari kami, kunjungi situs <a href="http://www.tuor-website.com">Tutor Website</a>dan submit form anda.
+            </div>
+            <div id="column">
+                <h2>Temukan kami di...</h2>
+                <a href="http://facebook.com/directnewsaccess">Facebook</a><br> <a href="http://twitter.com/directnewsaccess">Twitter</a>
+            </div>
+        </footer>
+        <!--Pengakhiran Footer-->
+    </div>
+</div>
+<!--Pengakhiran Rangka/istilahnya kulitnya-->
+</body>
+</html>
